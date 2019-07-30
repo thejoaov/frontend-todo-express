@@ -5,11 +5,10 @@
   "author": "thejoaov <jvictorsantos852@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "serve -s build",
+    "start": "yarn run production",
     "dev": "webpack-dev-server --progress --colors --inline --hot",
     "production": "webpack --progress -p",
-    "build": "webpack --progress -p",
-    "heroku-postbuild": "yarn run build"
+    "build": "webpack --progress -p"
   },
   "dependencies": {
     "axios": "0.15.3",
