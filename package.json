@@ -1,7 +1,7 @@
 {
   "name": "frontend-todo-express",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.jsx",
   "author": "thejoaov <jvictorsantos852@gmail.com>",
   "license": "MIT",
   "scripts": {
