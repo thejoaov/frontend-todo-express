@@ -9,7 +9,8 @@ module.exports = {
   },
   devServer: {
     port: 8080,
-    contentBase: "./public"
+    index: "index.html",
+    publicPath: "/public"
   },
   resolve: {
     extensions: ["", ".js", ".jsx"],
