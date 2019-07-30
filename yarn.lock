@@ -1478,9 +1478,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.2.7:
-  version "1.3.204"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.204.tgz#1ea5c6d495bab77995aa135dbcbc1d383dd4e21e"
-  integrity sha512-T0eXE6hfbtpzRUaI7aHI/HYJ29Ndk84aVSborRAmXfWvBvz2EuB2OWYUxNcUX9d+jtqEIjgZjWMdoxS0hp5j1g==
+  version "1.3.205"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.205.tgz#084835a5ecca0765a805acb50a0fddc23d8d530e"
+  integrity sha512-VV+f2FVeFI5D/slUD7A3V1lTMDkQTUGWYH2dZGAijIutN5Aga4Fn/Hv4Gc+60OpXFVLYIq5HpXb2cG6NrGGQaA==
 
 emojis-list@^2.0.0:
   version "2.1.0"
@@ -3766,7 +3766,7 @@ serve-static@1.14.1:
     parseurl "~1.3.3"
     send "0.17.1"
 
-serve@^11.1.0:
+serve@11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/serve/-/serve-11.1.0.tgz#1bfe2f4a08d0130cbf44711cdb7996cb742172e0"
   integrity sha512-+4wpDtOSS+4ZLyDWMxThutA3iOTawX2+yDovOI8cjOUOmemyvNlHyFAsezBlSgbZKTYChI3tzA1Mh0z6XZ62qA==
