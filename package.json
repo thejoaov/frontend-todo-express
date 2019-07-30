@@ -9,7 +9,7 @@
     "dev": "webpack-dev-server --progress --colors --inline --hot",
     "production": "webpack --progress -p",
     "build": "webpack --progress -p",
-    "serve": "serve -s build"
+    "serve": "serve -s"
   },
   "dependencies": {
     "axios": "0.15.3",
