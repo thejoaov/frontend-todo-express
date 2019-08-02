@@ -7,10 +7,10 @@ export default props => {
     const list = props.list || [];
     return list.map(todo => (
       <tr key={todo._id}>
-        <td style={{ width: "70vw", wordBreak: "break-word" }}>
+        <td style={{ width: "60vw", wordBreak: "break-word" }}>
           {todo.description}
         </td>
-        <td style={{ width: "30vw" }}>
+        <td style={{ width: "40vw" }}>
           <If test={!todo.done}>
             <IconButton
               style="success"
@@ -44,8 +44,8 @@ export default props => {
     <table className="table">
       <thead>
         <tr>
-          <th style={{ width: "70vw" }}>Descrição</th>
-          <th style={{ width: "30vw" }}>Ações</th>
+          <th style={{ width: "60vw" }}>Descrição</th>
+          <th style={{ width: "40vw" }}>Ações</th>
         </tr>
       </thead>
       <tbody>{renderRows()}</tbody>
