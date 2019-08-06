@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-import PageHeader from "../template/PageHeader";
-import TodoForm from "./TodoForm";
-import TodoList from "./TodoList";
+import PageHeader from "../PageHeader";
+import { Form, List } from "./index";
 
 const URL = "https://backend-todo-express.herokuapp.com/api/todos";
 
-export default class Todo extends Component {
+export class Todo extends Component {
   constructor(props) {
     super(props);
     this.state = { description: "", list: [] };
@@ -64,12 +63,12 @@ export default class Todo extends Component {
     return (
       <div>
         <PageHeader name="Tarefas" small="Cadastro" />
-        <TodoForm
+        <Form
           description={this.state.description}
           handleAdd={this.handleAdd}
           handleChange={this.handleChange}
         />
-        <TodoList
+        <List
           list={this.state.list}
           handleRemove={this.handleRemove}
           handleEdit={this.handleEdit}
